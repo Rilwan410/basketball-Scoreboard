@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scoreboard</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href=https://fonts.googleapis.com/css?family=Orbitron rel=stylesheet type=text/css>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,700&family=Orbitron:wght@700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="winner"  id ="winner-msg">Start Game</h1>
+        <div class="container">
+            <div class = "home">
+                <h3>HOME</h3>
+                <div class="screen" id="home-screen">12</div>
+                <div class="increment-container">
+                    <div class="incrementer"  id = "one" onclick = "incrementOne()">+1</div>
+                    <div class="incrementer"  id = "two" onclick = "incrementTwo()">+2</div>
+                    <div class="incrementer" id = "three" onclick = "incrementThree()">+3</div>
+                </div>
+            </div>
+            <div class="guest">
+                <h3>GUEST</h3>
+                <div class = "screen" id="guest-screen">5</div>
+                <div class="increment-container">
+                    <div class="incrementer" onclick= "incrementOneGuest()">+1</div>
+                    <div class="incrementer" onclick= "incrementTwoGuest()">+2</div>
+                    <div class="incrementer" onclick= "incrementThreeGuest()">+3</div>
+                </div>
+
+            </div>
+        </div>
+        <div id = "clear-btn" onclick = "clearBtn()"> Game Over</div>
+        
+    </body>
+    <script src="index.js"></script>
+</html> 

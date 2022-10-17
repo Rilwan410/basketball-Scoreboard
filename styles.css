@@ -1,0 +1,110 @@
+
+
+body{
+    margin:0;
+    box-sizing:border;
+    font-family:arial,sans-serif;
+    font-weight:bold;
+    padding-top:50px;
+    background:url(https://i.etsystatic.com/18325098/r/il/da255f/1666460446/il_794xN.1666460446_mhyu.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 110%;
+    height:100vh; 
+    width:100vw;
+}
+ .container{
+    display:flex;
+    text-align:center;
+    max-width:450px;
+    height:260px;
+    justify-content:space-around;
+    background-color:rgb(4, 4, 80);
+    margin: 150px auto;
+    border-radius:10px;
+    border:solid 3px;
+    box-shadow: 0px 0px 50px 10px black;
+}
+
+h3{
+font-size:1.7rem;
+color:white;
+line-height:5px;
+margin-top:45px;
+letter-spacing:1.2px;
+font-family:orbitron; 
+}
+
+.screen{
+    background-color:black;
+    width:125px;
+    height:100px;
+    border-radius:5px;
+    font-family: orbitron;
+    color:crimson;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:3.5rem;
+    font-weight:normal;
+}
+
+.incrementer{
+    color:white;
+    border:solid 1px;
+    width:30px;
+    height:30px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    cursor:pointer;
+} 
+
+.increment-container{
+    display:flex;
+    justify-content: space-around;
+    margin-top:25px;
+
+}
+
+#clear-btn{
+    border:solid 4px black;
+    text-align:center;
+    width:225px;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.8rem;
+    border-radius:20px;
+    padding: 10px 0;
+    word-wrap:break-word;
+    font-family:orbitron;
+    font-weight:bold;
+    margin:auto;
+    margin-top: -70px;
+    background-color:grey;
+    color:darkred;
+    box-shadow: 0px 0px 50px black;
+    transition: .5s ease-in-out;
+    cursor:pointer;
+}
+
+#clear-btn:hover{
+background-color:black;
+transition: .5s ease-in-out;
+color:red;
+box-shadow:0px 0px 50px darkred;
+}
+
+.winner{
+    text-align:center;
+    font-size:4rem;
+    font-family:orbitron;
+    transition: 3s ease-in-out;
+    margin-bottom:-50px;
+    color:rgb(194, 15, 15);
+
+}
